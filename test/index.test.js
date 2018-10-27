@@ -10,7 +10,8 @@ describe('is-mongodb-running', function() {
   });
 
   it('should work', function() {
-
+    // TODO: Won't be able to make this work until I can consistently get mongodb-runner to start/stop the server
+    // appropriately
     // isMongodbRunning(args, function(err, res) {
     //   // test with json and no-json
     //   // test with port, pid, and none
